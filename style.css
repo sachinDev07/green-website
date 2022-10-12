@@ -2,6 +2,8 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    list-style: none;
+    text-decoration: none;
 }
 
 :root {
@@ -11,3 +13,70 @@
     --secondary:#f8db62;
 }
 
+body {
+    font-family: 'Proximanova opt',sans-serif;
+}
+
+
+
+/*  Head Section */
+
+#heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 12rem;
+    text-align: center;
+    background-color: var(--pure);
+}
+
+#heading .logo {
+    margin-right: 6rem;
+    cursor: pointer;
+}
+
+#heading #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#heading #navbar li {
+    margin-right: 2.5rem ;
+    font-size: 1rem;
+    
+}
+
+#heading #navbar li a {
+    color: var(--dark);
+}
+
+#heading .login {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--primary);
+    background-color: var(--pure);
+    border: 1px solid var(--primary);
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+#heading .login:hover {
+    background-color: var(--primary);
+    color: var(--pure);
+}
+
+
+#heading .free {
+    padding: .5rem 2rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    font-weight: 700;
+    color: var(--pure);
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    cursor: pointer;
+}
