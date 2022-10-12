@@ -3,3 +3,11 @@
     padding: 0%;
     margin: 0%;
 }
+
+:root {
+    --primary: #00b289;
+    --dark:#4c4d5f;
+    --pure:#fff;
+    --secondary:#f8db62;
+}
+
