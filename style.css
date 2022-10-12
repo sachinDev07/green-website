@@ -17,15 +17,18 @@ body {
     font-family: 'Proximanova opt',sans-serif;
 }
 
+.section_p1 {
+    padding: 1.5rem 12rem;
+}
+
 
 
 /*  Head Section */
 
-.section_p1 {
+#heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 12rem;
     text-align: center;
     background-color: var(--pure);
 }
