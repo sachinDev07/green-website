@@ -153,6 +153,8 @@ body {
 }
 
 #hero .deals {
+    width: 100%;
+    max-width: 70rem;
     text-align: start;
     border-radius: 5px;
     display: flex;
