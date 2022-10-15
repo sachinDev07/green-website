@@ -170,6 +170,26 @@ body {
     box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
 }
 
+#hero .box_ribbon {
+    position: relative;
+    overflow: hidden;
+}
+
+#hero .box_ribbon .ribbon {
+    position: absolute;
+    top: 59px;
+    right: -97px;
+    letter-spacing: 4px;
+    width: 100%;
+    text-align: center;
+    transform: rotate(45deg);
+    background-color: var(--primary);
+    padding: 1rem 2rem;
+    font-size: .9rem;
+    font-weight: 600;
+    color: var(--pure);
+}
+
 #hero .deals .box h4 {
     color: var(--dark);
     font-size: 1.625rem;
