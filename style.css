@@ -275,3 +275,100 @@ body {
 #hero .deals .box .btn2 {
     padding-top: 5.7rem;
 }
+
+
+
+/*  CHARGE SECTION */
+
+#charge {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#charge h4 {
+    color: var(--dark);
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#charge .wrapper {
+    width: 100%;
+}
+
+#charge .wrapper .small_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 3rem 2rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    background-color: #fbfcff;
+    box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
+}
+
+#charge .wrapper .small_box h2 {
+    color: var(--dark);
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+
+#charge .wrapper .small_box p {
+    color: grey;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+#charge .wrapper .small_box .free {
+    text-align: center;
+}
+
+#charge .wrapper .small_box .free span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--dark);
+  
+}
+
+#charge .wrapper .small_box .free .month {
+    margin-top: 10px;
+    font-size: .8rem;
+    color: grey;
+    font-weight: 500;
+}
+
+#charge .wrapper .small_box .collab button {
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    color: var(--primary);
+    background-color: transparent;
+    cursor: pointer;
+    font-size: .8rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+#charge .wrapper .small_box .collab button:hover i {
+    position: relative;
+    animation-name: learn;
+    animation-duration: 2s;
+}
+
+@keyframes learn {
+    0% {
+        left: 0px;
+    }
+    50% {
+        left: 10px;
+    }
+    100% {
+        left: 10px;
+    }
+
+}
+
