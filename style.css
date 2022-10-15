@@ -372,3 +372,62 @@ body {
 
 }
 
+
+
+/* CALL TO ACTION */
+
+#call_to_action {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#call_to_action .container {
+    display: flex;
+    align-items: center;
+    background-color: #f2faff;
+    padding: 5rem 2rem;
+    border-radius: 10px;
+    width: 55rem;
+    max-width: 58rem;
+}
+
+#call_to_action .container .action {
+    margin-right: 4rem;
+}
+
+#call_to_action .container .action p {
+    font-size: 3rem;
+    color: var(--dark);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#call_to_action .container .action p .span {
+    color: var(--primary);
+}
+
+#call_to_action .container .f_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    width: 4rem;
+    height: 4rem;
+    padding: 2rem 5rem;
+    white-space: nowrap;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--pure);
+    background-color: var(--primary);
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+#call_to_action .container .f_button:hover {
+    filter: brightness(1.1);
+}
