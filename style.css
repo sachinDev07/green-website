@@ -494,7 +494,3 @@ body {
     letter-spacing: 1px;
 }
 
-
-.question:target .answer {
-    min-height: 20rem;
-}
