@@ -493,3 +493,71 @@ body {
     padding-right: 1rem;
     letter-spacing: 1px;
 }
+
+
+
+/* FOOTER SECTION */
+
+#footer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: start;
+    width: 100%;
+    background-color: #162039;
+    flex-wrap: wrap;
+}
+
+#footer h3 {
+    margin: 3rem 0;
+    color: var(--primary);
+}
+
+#footer ul li {
+    padding: .5rem 0;
+    
+}
+
+#footer ul li a,
+#footer ul li i{
+    color: var(--pure);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+#footer ul li a:hover {
+    color: grey;
+}
+
+#footer .product .price,
+#footer .resources .taxes {
+    margin: 2rem 0;
+}
+
+#footer .product .price li:nth-child(1) a {
+    color: var(--primary);
+}
+
+#footer .big__box .templates h4 {
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+#footer .bonsai__details .bonsai__affilates {
+    margin-top: 1rem ;
+    margin-bottom: 2rem ;
+}
+
+#footer .bonsai__details span a {
+    color: var(--pure);
+}
+
+#footer .bonsai__details span a:hover {
+    color: grey;
+}
+
+#footer .bonsai__details span i {
+    color: var(--pure);
+    cursor: pointer;
+}
