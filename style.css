@@ -33,6 +33,7 @@ body {
     align-items: center;
     text-align: center;
     background-color: var(--pure);
+    
 }
 
 .blue-shape._12 {
@@ -75,11 +76,12 @@ body {
 #heading #navbar li {
     margin-right: 40px ;
     font-size: 16px;
-    
+    position: relative;
 }
 
 #heading #navbar li a {
     color: var(--dark);
+    
 }
 
 #heading .login {
@@ -109,6 +111,85 @@ body {
     border: .125rem solid var(--primary);
     cursor: pointer;
 }
+
+
+
+
+
+/* DROP DOWN MENU */
+
+#navbar .Item__1:hover .sub__menu {
+    display: block;
+}
+
+.sub__menu{
+    top: 4px;
+    display: none;
+    position: absolute;
+    background-color: var(--pure);
+    width: 350px;
+    max-width: 330px;
+    left: -119px;
+    margin-top: 1rem;
+    text-align: start;
+    box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
+    z-index: 1;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.sub__menu li  {
+    width: 100%;
+    padding: 2rem 2rem 0 2rem ;
+    transition: .3s ease;
+}
+
+.sub__menu ul:nth-child(1):hover .content .icon {
+    display: block;
+}
+
+.sub__menu li h5 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+    
+}
+
+.sub__menu li:hover {
+    background-color: #fbfcff;
+}
+
+.sub__menu .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.sub__menu .content {
+    content: "";
+    border-bottom: 2px solid rgb(212, 212, 212);
+}
+
+.sub__menu .content p {
+    width: 280px;
+    color: grey;
+    line-height: 1.6; 
+}
+
+.sub__menu .content .icon {
+    display: none;
+    padding-right: 10px;
+    transition: .5s ease;
+    color: grey;
+}
+
+
+
+
+
+
+
 
 
 /* HERO SECTION */
