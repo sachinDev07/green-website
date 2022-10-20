@@ -220,18 +220,62 @@ body {
 
 #hero .plan .mon {
     color: var(--dark);
-    font-weight: 500;
-    margin-right: 3rem;
+    font-weight: 550;
+    margin-right: 2rem;
     margin-top: 1rem;
 }
 
 #hero .plan .year {
     margin-top: 1rem;
     color: var(--dark);
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 550;
+    font-size: 1rem;
     
 }
+
+
+/* toggle button */
+
+.toggle {
+    text-align: center;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+
+.toggle input{
+    display: none;
+}
+
+.toggle label {
+    display: block;
+    width: 60px;
+    height: 30px;
+    background-color: var(--primary);
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle label::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    background-color: var(--pure);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: block;
+    left: 3px;
+    transition:left 100ms linear;
+}
+
+.toggle input:checked + label:before {
+    left: 32px;
+}
+
+
+
 
 #hero .deals {
     width: 100%;
