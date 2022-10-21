@@ -128,7 +128,7 @@ body {
     position: absolute;
     background-color: var(--pure);
     width: 350px;
-    max-width: 330px;
+    max-width: 350px;
     left: -119px;
     margin-top: 1rem;
     text-align: start;
@@ -186,7 +186,41 @@ body {
 
 
 
+/* Templates dropdown */
 
+#navbar .Item_2:hover .sub__templates {
+    display: block;
+}
+
+#navbar .sub__templates {
+    display: none;
+    position: absolute;
+    background-color: var(--pure);
+    max-width: 350px;
+    width: 350px;
+    left: -80px;
+    top: 20px;
+    text-align: start;
+    padding: 1rem 2rem 3rem 2rem;
+    box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
+    z-index: 1;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.sub__templates ul li {
+    width: 100%;
+    display: flex;
+    padding: 1.5rem;
+}
+
+.sub__templates ul li:hover {
+    background-color: #fbfcff;
+}
+
+.sub__templates ul li .file_image {
+    margin-right: 1rem;
+}
 
 
 
