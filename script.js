@@ -2,7 +2,7 @@ const inputEl = document.getElementById('toggle__btn');
 const month = document.querySelector('.mon');
 const year = document.querySelector('.year');
 
-inputEl.checked = JSON.parse(localStorage.getItem("mode"));
+// inputEl.checked = JSON.parse(localStorage.getItem("mode"));
 updateColor();
 
 function updateColor() {
@@ -18,9 +18,8 @@ function updateColor() {
 
 inputEl.addEventListener("input", ()=> {
     updateColor();
-    updateLocalStorage();
 })
 
-function updateLocalStorage() {
-    localStorage.setItem("mode", JSON.stringify(inputEl.checked));
-}
+// function updateLocalStorage() {
+//     localStorage.setItem("mode", JSON.stringify(inputEl.checked));
+// }
