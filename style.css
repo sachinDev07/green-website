@@ -209,6 +209,13 @@ body {
     align-items: center;
     text-align: center;
     margin-bottom: 3rem;
+    position: relative;
+}
+
+.offer__image {
+    position: absolute;
+    right: -25px;
+    top: -25px;
 }
 
 #hero .plan h3 {
