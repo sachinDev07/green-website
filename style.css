@@ -834,6 +834,74 @@ body {
         height: 920%;
     }
 
+    
+
+    /* Hero Section */
+
+    #hero {
+        padding-top: 2.81rem;
+    }
+
+    #hero .deals {
+        width: 100%;
+        border-radius: 5px;
+        flex-wrap: wrap;
+    }
+
+    #hero .deals .box {
+        width: 101%;
+        padding: 5rem 2rem;
+        border: 1px solid rgb(208, 207, 207);
+        border-radius: 10px;
+        background-color: #fbfcff;
+        box-shadow: 0 0 68px 0 rgb(2 4 69 / 8%);
+        margin-bottom: 2rem;
+    }
+
+    #hero .deals .box h4 {
+        font-size: 2.5rem;
+    }
+
+    #hero .deals .box p {
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+    }
+
+    #hero .deals .box .price .month {
+        font-size: 1.3rem;
+        margin-left: 1rem;
+    }
+
+    #hero .deals .box .price .sign {
+        font-size: 3rem;
+    }
+
+    #hero .deals .box .price .rate {
+        font-size: 4rem;
+    }
+
+    #hero .deals .box .content ul li {
+        margin-bottom: 2rem;
+    }
+
+    #hero .box_ribbon .ribbon {
+        right: -248px; 
+    }
+
+    #hero .deals .box .btn1 {
+        margin-top: 2.7rem;
+    }
+
+    #hero .deals .box .btn button {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+
+
+
+
+
+
 }
 
 
