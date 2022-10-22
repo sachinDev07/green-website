@@ -274,6 +274,10 @@ body {
     
 }
 
+.half-logo, .bar {
+    display: none;
+}
+
 
 /* toggle button */
 
@@ -727,3 +731,108 @@ body {
     color: var(--pure);
     cursor: pointer;
 }
+
+
+
+
+
+/*----------------  MEDIA QUERIES  ----------------- */
+
+@media (max-width:991px) {
+
+    /* HEADER SECTION */
+
+    .section_p1 {
+        padding: 2rem 3rem;
+    }
+
+    #heading {
+        position: relative;
+
+        background-color: var(--pure);
+    }
+
+    #heading #navbar, .login_box {
+        display: none;
+    }
+
+    .bar {
+        display: block;
+    }
+
+    .wrapper.active {
+        right: 0;
+    }
+
+    .wrapper {
+        margin-top: 58rem;
+        background-color: var(--pure);
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        z-index: 1;
+        padding: 2rem 3rem;
+        right: -770px;
+        transition: .6s ease;
+    }
+
+    .wrapper .half__logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .wrapper #navbar2 {
+        margin-top: 2rem;
+        text-align: start;
+    }
+
+    .wrapper #navbar2 li {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+        color: #000;
+        border-bottom: 1px solid grey;
+    }
+
+    .login_box__2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .login2 {
+        padding: 1rem 0;
+        border-radius: .3125rem;
+        font-weight: 700;
+        color: var(--primary);
+        background-color: var(--pure);
+        border: .0625rem solid var(--primary);
+        transition: .3s ease;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    #heading .free2 {
+        padding: 1rem 0;
+        border-radius: .3125rem;
+        font-weight: 700;
+        color: var(--pure);
+        background-color: var(--primary);
+        border: .125rem solid var(--primary);
+        cursor: pointer;
+    }
+
+    .blue-shape._12 {
+        top: -159%;
+        right: 0%;
+        width: 89%;
+        height: 920%;
+    }
+
+}
+
+
+
