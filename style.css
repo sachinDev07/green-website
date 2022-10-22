@@ -898,6 +898,19 @@ body {
     }
 
 
+    /* Charge Section */
+
+    #charge h4 {
+       margin-bottom: 2rem;
+    }
+
+    #charge .wrapper .small_box p {
+        letter-spacing: 1px;
+        width: 95%;
+        line-height: 1.6;
+    }
+
+
 
 
 
