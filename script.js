@@ -27,3 +27,22 @@ function updateColor() {
 inputEl.addEventListener("input", ()=> {
     updateColor();
 })
+
+
+//---------- Hamburger event -----------
+
+const barEl = document.querySelector('.bar');
+const navbar = document.querySelector('.wrapper');
+const close = document.getElementById('close');
+
+if(barEl) {
+    barEl.addEventListener("click", () => {
+        navbar.classList.add('active');
+    })
+}
+
+if(close) {
+    close.addEventListener('click', ()=> {
+        navbar.classList.remove('active');
+    })
+}
