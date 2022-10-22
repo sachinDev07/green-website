@@ -274,7 +274,8 @@ body {
     
 }
 
-.half-logo, .bar {
+.nav__wrapper,
+.bar {
     display: none;
 }
 
@@ -760,11 +761,12 @@ body {
         display: block;
     }
 
-    .wrapper.active {
+    .nav__wrapper.active {
         right: 0;
     }
 
-    .wrapper {
+    .nav__wrapper {
+        display: block;
         margin-top: 58rem;
         background-color: var(--pure);
         position: absolute;
@@ -776,19 +778,19 @@ body {
         transition: .6s ease;
     }
 
-    .wrapper .half__logo {
+    .nav__wrapper .half__logo {
         width: 100%;
         display: flex;
         justify-content: space-between;
         
     }
 
-    .wrapper #navbar2 {
+    .nav__wrapper #navbar2 {
         margin-top: 2rem;
         text-align: start;
     }
 
-    .wrapper #navbar2 li {
+    .nav__wrapper #navbar2 li {
         display: flex;
         justify-content: space-between;
         padding: 2rem 0;

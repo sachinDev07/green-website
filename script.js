@@ -32,7 +32,7 @@ inputEl.addEventListener("input", ()=> {
 //---------- Hamburger event -----------
 
 const barEl = document.querySelector('.bar');
-const navbar = document.querySelector('.wrapper');
+const navbar = document.querySelector('.nav__wrapper');
 const close = document.getElementById('close');
 
 if(barEl) {
