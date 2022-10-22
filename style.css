@@ -910,6 +910,52 @@ body {
         line-height: 1.6;
     }
 
+    #call_to_action .container .action {
+        margin-right: 3rem;
+        text-align: center;
+    }
+
+    #call_to_action .container {
+        padding: 3rem 4rem;
+    }
+
+    #call_to_action .container .action p {
+        font-size: 2.6rem;
+        line-height: 1.5;
+    }
+
+    #call_to_action .container .f_button {
+        padding: 1rem 4rem;
+        text-align: center;
+    }
+
+    #faq {
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 5rem;
+        padding: 0 6rem;
+    }
+
+    #faq h3 {
+        font-size: 2em;
+        color: var(--primary);
+        margin: 3rem 0;
+    }
+
+    #faq .faq__box {
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    #faq .faq__box .question {
+        border-bottom: none;
+        padding-bottom: 0rem;
+    }
+
+    #faq .faq__box .question i {
+        color: rgb(179, 179, 179);
+    }
+
 
 
 
