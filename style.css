@@ -766,10 +766,11 @@ body {
     }
 
     .nav__wrapper {
+        position: fixed;
         display: block;
-        margin-top: 58rem;
+        top: 0;
+        margin-top: 0rem;
         background-color: var(--pure);
-        position: absolute;
         width: 100%;
         height: 100vh;
         z-index: 1;
@@ -832,6 +833,18 @@ body {
         right: 0%;
         width: 89%;
         height: 920%;
+    }
+
+    .blue-shape {
+        position: unset;
+        left: 185px;
+        bottom: auto;
+        z-index: -1;
+        display: block;
+        border-radius: 6.6vw;
+        background-color: #f2faff;
+        -ms-transform: rotate(-23deg);
+        transform: rotate(-27deg);
     }
 
     
@@ -974,7 +987,23 @@ body {
     }
 
     .nav__wrapper {
-        margin-top: 34rem;
+        margin-top: 0rem;
+    }
+    .nav__wrapper {
+        top: 0;
+        position: fixed;
+        /* position: absolute; */
+        display: block;
+        margin-top: 0rem;
+        background-color: var(--pure);
+        height: 100vh;
+        z-index: 1;
+        padding: 2rem 3rem;
+        right: -365px;
+        transition: .6s ease;
+    }
+    .blue-shape {
+        display: none;   
     }
 
     #hero {
