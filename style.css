@@ -432,19 +432,22 @@ body {
     border: none;
     border-radius: 5px;
     transition: .3s ease;
+    white-space: nowrap;
 }
 
-#hero .deals .box .btn button:hover {
+#hero .deals .box button:hover {
     cursor: pointer;
-    filter: brightness(1.1);
+    filter: brightness(1);
 }
 
 #hero .deals .box .btn1 {
-    margin-top: 10.7rem;
+    margin-top: 10.8rem;
 }
 
 #hero .deals .box .btn2 {
-    padding-top: 5.7rem;
+    padding-top: .7rem;
+    margin-top: 8.6rem;
+    
 }
 
 
@@ -556,13 +559,15 @@ body {
 
 
 #call_to_action .container {
-    display: flex;
-    align-items: center;
     background-color: #f2faff;
-    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3rem 2rem;
     border-radius: 10px;
     width: 55rem;
     max-width: 58rem;
+    height: auto;
 }
 
 #call_to_action .container .action {
@@ -579,22 +584,14 @@ body {
     color: var(--primary);
 }
 
-#call_to_action .container .f_button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: block;
-    width: 4rem;
-    height: 4rem;
-    padding: 2rem 5rem;
-    white-space: nowrap;
-    border-radius: 8px;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: var(--pure);
+#call_to_action .container button {
+    padding: 1em 2em;
     background-color: var(--primary);
+    border: none;
+    border-radius: 5px;
+    color: var(--pure);
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: .3s ease;
 }
@@ -1121,8 +1118,9 @@ form input:focus {
     }
 
     #call_to_action .container .f_button {
-        padding: 1rem 4rem;
+        padding: 2rem 4rem;
         text-align: center;
+        white-space: nowrap;
     }
 
     #faq {
@@ -1240,22 +1238,25 @@ form input:focus {
 
 
     #hero .deals .box .btn2 {
-        padding-top: 0rem;
+        padding-top: 1rem;
+    }
+
+    #hero .deals .box .btn2 {
+        margin-top: 3.6rem;
     }
 
     #charge {
         text-align: center;
+        margin-top: 1rem;
     }
 
     #charge h4 {
         font-size: 1.5rem;
         line-height: 1.6;
         font-weight: 500;
+        margin-bottom: 3rem;
     }
 
-    #charge h4 {
-        margin-bottom: 1rem;
-    }
 
     #call_to_action {
         padding: 1.3rem;
@@ -1310,7 +1311,7 @@ form input:focus {
     }
 
     #call_to_action .container .f_button {
-        padding: 1em 5em;
+        padding: 1em 2em;
         margin-top: 2rem;
     }
 
