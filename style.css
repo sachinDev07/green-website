@@ -1153,10 +1153,6 @@ form input:focus {
     }
 
 
-
-
-
-
 }
 
 
@@ -1343,6 +1339,42 @@ form input:focus {
         top: -158%;
         width: 229%;
         height: 805%;
+    }
+
+
+
+
+
+    /* -------- login Page -------- */
+
+
+    #login header .sign__up .login {
+        display: none;
+    }
+
+    #login header .sign__up {
+        width: 50px;
+        min-width: 50px;
+        white-space: nowrap;
+    }
+
+    .container {
+        background-color: #EEF1FF;
+    }
+
+    .form__container {
+        min-width: 300px;
+        width: 330px;
+        background-color: #fff;
+        box-shadow: none;
+    }
+
+    .form__container form h2 {
+        margin-bottom: 3.5rem;
+    }
+
+    .form__container form {
+        padding: 4rem 2rem;
     }
 
 
