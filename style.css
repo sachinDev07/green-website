@@ -998,7 +998,7 @@ body {
         background-color: var(--pure);
         height: 100vh;
         z-index: 1;
-        padding: 2rem 3rem;
+        padding: 2rem 2rem;
         right: -365px;
         transition: .6s ease;
     }
