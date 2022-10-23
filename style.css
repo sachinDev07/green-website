@@ -1175,7 +1175,7 @@ form input:focus {
         background-color: var(--pure);
         height: 100vh;
         z-index: 1;
-        padding: 2rem 1rem;
+        padding: 2rem 2rem;
         right: -365px;
         transition: .6s ease;
     }
@@ -1361,6 +1361,7 @@ form input:focus {
 
     .container {
         background-color: #EEF1FF;
+        padding: 2rem;
     }
 
     .form__container {
@@ -1371,11 +1372,11 @@ form input:focus {
     }
 
     .form__container form h2 {
-        margin-bottom: 3.5rem;
+        margin-bottom: 2rem;
     }
 
     .form__container form {
-        padding: 4rem 2rem;
+        padding: 2rem 2rem;
     }
 
 
